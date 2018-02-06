@@ -24,7 +24,7 @@ public class RetrieveFeedTask extends AsyncTask<Void, Void, String> {
     private Exception exception;
 
     String API_URL = "https://api.openweathermap.org/data/2.5/weather";
-    String API_KEY = "a77bb0e0774fe309e1e902829f6771d2";
+    String API_KEY = "<api_key>";
 
     public MainActivity activity;
     public String city;
